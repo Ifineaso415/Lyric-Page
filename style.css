@@ -6,12 +6,9 @@ h1 {
 p {
     color: rgb(15, 71, 126);
     font-style:italic;
-    font-size: 5vh, 5vh
+    font-size: 5vh, 5vh;
     font-family: "Alumni Sans SC", sans-serif;
 }
 .card{ 
     color: rgb(24, 96, 169);
-}
-.box-model{
-
 }
