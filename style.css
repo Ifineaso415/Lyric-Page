@@ -1,53 +1,68 @@
+body {
+  background-image: url('Leaf.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Alumni Sans SC", sans-serif;
+}
+
 h1 {
-    color:rgb(0, 0, 0);
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 60px;
-    background-image: element();
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+  color: #000;
+  font-size: 72px; /* Larger */
+  font-weight: bold;
+  text-align: center;
+  margin: 40px auto 20px;
+  padding: 24px;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
+
 h2 {
-    color:rgb(0, 0, 0);
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size:24px;
-    text-align: center;
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
 }
 
-p {
-    color: rgb(0, 0, 0);
-    font-style:italic;
-    font-size: 24px;
-    font-family: "Alumni Sans SC", sans-serif;
-    text-align: center;
-    padding:auto;
-    background-color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-
-}
-.card{ 
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-.Header{
-    background-color: rgb(255, 255, 255);
-    background-size: auto;
-    display: block;
-    margin: auto;
-    
+p,
+#lyrics {
+  color: #000;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.Picture{
-    display: block;
-    margin: auto;
-    border-image-width: auto;
-    border: 2px solid black;
+.card {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
-.body{
-    background-image: url(Leaf.jpeg)
+
+.Header {
+  background-color: rgba(255, 255, 255, 0.9); /* Match p styling */
+  padding: 24px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.Picture {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #000;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
 }
