@@ -1,14 +1,19 @@
 h1 {
-    color:rgb(250, 252, 253);
+    color:rgb(0, 0, 0);
     font-family: "Alumni Sans SC", sans-serif;
     font-size: 60px;
     background-image: element();
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
 }
 h2 {
-    color:rgb(250, 252, 253);
+    color:rgb(0, 0, 0);
     font-family: "Alumni Sans SC", sans-serif;
     font-size:24px;
-    background-image: element();
+    text-align: center;
 }
 
 p {
@@ -17,18 +22,24 @@ p {
     font-size: 24px;
     font-family: "Alumni Sans SC", sans-serif;
     text-align: center;
-    border: 1px solid black;
-    border-radius:
+    padding:auto;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+
 }
 .card{ 
-    color: rgb(255, 0, 0);
-    text-align: right;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 .Header{
-    background-image: url(./background\ beach.webp);
+    background-color: rgb(255, 255, 255);
     background-size: auto;
     display: block;
     margin: auto;
+    
 }
 
 .Picture{
@@ -36,4 +47,7 @@ p {
     margin: auto;
     border-image-width: auto;
     border: 2px solid black;
+}
+.body{
+    background-image: url(Leaf.jpeg)
 }
