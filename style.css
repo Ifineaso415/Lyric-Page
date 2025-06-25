@@ -12,6 +12,7 @@ h1 {
   font-size: 72px; /* Larger */
   font-weight: bold;
   text-align: center;
+  font-style: italic;
   margin: 40px auto 20px;
   padding: 24px;
   max-width: 500px;
