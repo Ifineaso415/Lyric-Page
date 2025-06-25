@@ -44,9 +44,14 @@ p,
 }
 
 .card {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: rgb(245, 4, 4); /* Slightly transparent */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .Header {
