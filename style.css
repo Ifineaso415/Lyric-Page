@@ -45,7 +45,7 @@ p,
 
 .card {
   color: #ffffff;
-  text-align: center;
+  font-size: 25px;
   padding: 20px;
   max-width: 500px;
   margin: 20px auto;
